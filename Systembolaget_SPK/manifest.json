@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Bolaget_SPK",
+    "version": "1.0",
+    
+    "description": "Bolaget_SPK hjälper dig att beräkna kostnaden per enhet alkohol på Systembolaget. Får fram information om mängd, alkoholhalt och pris, och visar kostnaden per enhet alkohol i kr.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+    
+    "content_scripts": [
+      {
+        "matches": ["*://*.systembolaget.se/*"],
+        "js": ["spk.js"]
+      }
+    ]
+  }
+  
