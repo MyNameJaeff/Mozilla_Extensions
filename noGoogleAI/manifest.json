@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "noGoogleAI",
+  "version": "1.0",
+  "description": "Remove Google AI from your search results.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "48": "icons/robot-icon.png"
+  }
+}
